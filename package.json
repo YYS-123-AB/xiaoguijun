@@ -1,0 +1,16 @@
+{
+  "name": "university-major-intro",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "大学专业介绍站 - 纯前端项目，含13学科门类200+专业完整信息",
+  "scripts": {
+    "fetch": "node scripts/fetch-data.js",
+    "start": "npx serve .",
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0"
+  }
+}
